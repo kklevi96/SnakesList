@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SnakesList.ViewModels"
+             x:Class="SnakesList.MainPage"
+             xmlns:model="clr-namespace:SnakesList.Model"
+             x:DataType="vm:MainPageViewModel">
+
+    <Grid ColumnDefinitions="*,*" RowDefinitions="*,Auto">
+        <CollectionView
+            ItemsSource="{Binding Snakes}" Grid.ColumnSpan="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Snake">
+                    <Frame HeightRequest="160" Margin="10"
+                           BackgroundColor="Beige">
+                        <Grid ColumnDefinitions="125,*">
+                            <Image Aspect="AspectFill"
+                                   WidthRequest="125"
+                                   HeightRequest="125"
+                                   Source="{Binding Image}"></Image>
+                            <VerticalStackLayout VerticalOptions="Center"
+                                                 Grid.Column="1"
+                                                 Padding="5">
+                                <Label FontSize="Medium" Text="{Binding Name}"></Label>
+                                <Label FontSize="Small" Text="{Binding Species}"></Label>
+                                <HorizontalStackLayout>
+                                    <Label FontSize="Small" Text="Venomous?"></Label>
+                                    <CheckBox IsChecked="{Binding IsVenomous}" IsEnabled="False"></CheckBox>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="Get Snakes"
+                Grid.Row="1"
+                Margin="5"
+                Command="{Binding LoadSnakesCommand}"></Button>
+        <Button Text="Filter"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="5"
+                Command="{Binding GetNonVenomousCommand}"></Button>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,44 @@
+﻿[
+  {
+    "Name": "The Sundance Kid",
+    "Species": "Ball Python",
+    "Image": "https://scontent.fbud4-1.fna.fbcdn.net/v/t39.30808-6/250329755_249679023847400_4876755738733007538_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=wbnwWr5LgpIAX87YsrL&_nc_ht=scontent.fbud4-1.fna&oh=00_AfBgUgEGTN6zL80J_55d5ijQHnwN4Tw3alryyuitkuXXMQ&oe=65DA5BF5",
+    "IsVenomous": false
+  },
+  {
+    "Name": "Marshmallow",
+    "Species": "Hognose snake",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRssJt9N0pPEF258fGSiLxtjEB4FHkv4EkQL_Y_Ldox4F2Nm8ZPY76GlrGfSJ05j0gYRXI&usqp=CAU",
+    "IsVenomous": true
+  },
+  {
+    "Name": "Lilith",
+    "Species": "King Cobra",
+    "Image": "https://scontent.fbud4-1.fna.fbcdn.net/v/t39.30808-6/242571563_4160815750696936_3314261299293190996_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=KxVtsTAhIlwAX-tymWp&_nc_ht=scontent.fbud4-1.fna&oh=00_AfDm50BXYaLLWM6eNBeji8PDuHAT2hr19zTxK7vDbucW1w&oe=65DB04EF",
+    "IsVenomous": true
+  },
+  {
+    "Name": "Maya",
+    "Species": "Black Headed Python",
+    "Image": "https://scontent.fbud4-1.fna.fbcdn.net/v/t39.30808-6/274515698_318876670260968_5535998101894571956_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=onZK_Ic_fu4AX-8M4du&_nc_ht=scontent.fbud4-1.fna&oh=00_AfB0vGlZgS4QTyBPjuSoeslg8wXbf5hBcdTW68aMvR4biQ&oe=65DB7DDC",
+    "IsVenomous": false
+  },
+  {
+    "Name": "Stella",
+    "Species": "Super Dwarf Reticulated Python",
+    "Image": "https://scontent.fbud4-1.fna.fbcdn.net/v/t39.30808-6/274708307_320172726798029_8790973845497495766_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=Vcvl9xyDcXcAX-2RbO8&_nc_ht=scontent.fbud4-1.fna&oh=00_AfCEA-fg4A7QB-kw4QmSYmqr7ku1YP0uxKZeedqophZJ0g&oe=65D9E0B1",
+    "IsVenomous": false
+  },
+  {
+    "Name": "Snarfles",
+    "Species": "Reticulated Python",
+    "Image": "https://pbs.twimg.com/ext_tw_video_thumb/1119047225982836737/pu/img/4zDkWJALHc5ilymk.jpg",
+    "IsVenomous": false
+  },
+  {
+    "Name": "Linguini",
+    "Species": "Rat snake",
+    "Image": "https://scontent.fbud4-1.fna.fbcdn.net/v/t39.30808-6/409209676_122128805900063431_1106189875812537_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=29rQ7Bp_u34AX_YVHDm&_nc_ht=scontent.fbud4-1.fna&oh=00_AfDUdsePf-uvYQJPGwdoEy-hRELKVWY4jdTHynNtyQMZYA&oe=65DAF9F9",
+    "IsVenomous": false
+  }
+]
